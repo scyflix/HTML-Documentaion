@@ -24,7 +24,7 @@ This project emphasizes **mental models over memorization**.
 
 ## What this project is NOT
 
-- ❌ Not a full replacement for freeCodeCamp, MDN, or W3Schools  
+- ❌ Not a full learning tool like freeCodeCamp, MDN, or W3Schools  
 - ❌ Not a beginner-only step-by-step course  
 - ❌ Not complete in depth for every topic (yet)
 
@@ -32,7 +32,7 @@ Some sections are **introductory stubs** that define concepts clearly but will b
 
 ---
 
-## Current state (honest status)
+## Current state
 
 - ✅ Topic coverage is **broad and well-structured**
 - ✅ Navigation and hierarchy are intentional and scalable
