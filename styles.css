@@ -16,6 +16,11 @@ body {
   --link-color: #7fffe1;
   --link-border: #7fffe13e;
 }
+.about {
+ margin-top: 20px;
+ border: 1px solid var(--border-color);
+ background-color: var(--details-bg);
+}
 body {
   margin: 0;
   background: var(--bg);
