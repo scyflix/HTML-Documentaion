@@ -27,6 +27,7 @@ body {
   font-size: var(--font-size);
   color: var(--text-color);
 }
+
 header {
   position: relative;
 }
@@ -134,13 +135,13 @@ code {
   font-family: monospace;
   background: #d3d3d3cb;
   font-size: 1.2rem;
-  color: rgb(87, 3, 3);
+  color: #2600ff;
   border-radius: 5px;
   font-weight: 100;
   margin: 2px;
 }
 .attribute {
-  color: #2600ff;
+  color: rgb(87, 3, 3);
 }
 @media (max-width: 800px) {
   .menuIcon {
