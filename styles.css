@@ -18,8 +18,13 @@ body {
 }
 .about {
  margin-top: 20px;
- border: 1px solid var(--border-color);
- background-color: var(--details-bg);
+ position: fixed;
+ text-decoration: none;
+ color: var(--text-color);
+ font-size: 2rem;
+ right: 20px;
+ bottom: 10px;
+ padding: 10px;
 }
 body {
   margin: 0;
