@@ -71,6 +71,8 @@ section,
   margin: 14px;
   border-radius: 12px;
 }
+/*
+hide section and show on link click
 #hidden article section {
   display: none;
 }
@@ -78,6 +80,7 @@ section,
 article.show {
   display: block;
 }
+  */
 .example-note {
   font-size: 0.85rem;
   color: #666;
@@ -104,7 +107,7 @@ nav#navbar {
   margin-right: 10px;
   top: 0;
   left: 0;
-  height: 100vh;
+  height: 100dvh;
   width: 250px;
   z-index: 2000;
   background: var(--bg);
