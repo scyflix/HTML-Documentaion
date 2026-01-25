@@ -152,39 +152,39 @@ code {
     color: #2600ff;
 
 }
+.menuIcon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+  top: 10px;
+  left: 15px;
+  position: fixed;
+  gap: 3px;
+  z-index: 9990;
+  background-color: #696969;
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  animation: slide 0.9s ease;
+}
+.menuIcon span {
+  width: 24px;
+  height: 4px;
+  background: #ffffff;
+  border-radius: 2px 5px;
+  margin: 0 auto;
+}
+.menuIcon:hover {
+  opacity: 0.7;
+}
+#main-doc.adjust {
+  margin-left: 2px;
+}
+nav#navbar.hide {
+  left: -100%;
+}
 @media (max-width: 800px) {
-  .menuIcon {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    cursor: pointer;
-    top: 10px;
-    left: 15px;
-    position: fixed;
-    gap: 3px;
-    z-index: 9990;
-    background-color: #696969;
-    width: 35px;
-    height: 35px;
-    border-radius: 5px;
-    animation: slide 0.9s ease;
-  }
-  .menuIcon span {
-    width: 24px;
-    height: 4px;
-    background: #ffffff;
-    border-radius: 2px 5px;
-    margin: 0 auto;
-  }
-  .menuIcon:hover {
-    opacity: 0.7;
-  }
-  #main-doc.adjust {
-    margin-left: 2px;
-  }
-  nav#navbar.hide {
-    left: -100%;
-  }
   nav#navbar {
     position: fixed;
     width: 70%;
